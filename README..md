@@ -18,6 +18,15 @@ RandomForestClassifier
 - blood_pressure
 - heart_rate
 - sleep
+Important notes:
+
+Height must be entered in centimeters
+
+Weight must be in kilograms
+
+Temperature must be in Celsius
+
+Sleep must be hours per day
 
 ### Categorical Features
 - gender
