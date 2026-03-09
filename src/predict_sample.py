@@ -8,7 +8,7 @@ model = joblib.load("model/health_risk_pipeline.pkl")
 sample_data = pd.DataFrame([{
     "age" : 35,
     "gender" : "female",
-    "weight" : 70,
+    "weight" : 78,
     "height" : 172,
     "temperature" :38.2,
     "blood_pressure" :150,

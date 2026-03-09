@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from config import NUMERICAL_FEATURES, CATEGORICAL_FEATURES, TARGET
 
 # Load dataset
-data = pd.read_csv("dataset/health_risk_dataset.csv")
+data = pd.read_csv("HealthRiskML/dataset/health_risk_dataset.csv")
 
 # Features and target
 X = data[NUMERICAL_FEATURES + CATEGORICAL_FEATURES]
